@@ -60,11 +60,17 @@
         ],
     ];
     
-
-    
-
-
     ?>
+
+
+<?php
+
+
+foreach ($faq as $dati) {
+  echo "<h1> $dati[question] </h1>";
+  echo "<p> $dati[answer] </p>";
+}
+?> 
     
 </body>
 </html>
